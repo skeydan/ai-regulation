@@ -29,7 +29,7 @@ resources:
 
     3.2 General discussion
 
-# EU Privacy- and human rights-related legislation: Foundations
+# EU Privacy- and human rights-related legislation: Foundations and present
 
 ## European Convention on Human Rights (1953)
 
@@ -68,24 +68,85 @@ Everyone has the right to respect for his or her private and family life, home a
 3.  Compliance with these rules shall be subject to control by an independent authority.
 :::
 
-::: notes
-Thus we have 2 regulations, and 2 courts, both mentioning the right to private life (Article 8 / Articles 7/8, resp.)
-:::
+## General Data Protection Regulation (GDPR, 2018)
+
+-   applies whenever *personal* data are collected, used, or stored
+
+-   rights:
+
+    -   absolute: to be informed, to access, to rectification, to data portability
+
+    -   restricted: to erasure, to restrict processing, to object
+
+-   roles: controller, joint controller, processor
+
+## GDPR & AI: Privacy Impact Assessment (PIA)
+
+A *Privacy Impact Assessment* must always be conducted when the processing could result in a high risk to the rights and freedoms of natural persons. E.g.
+
+-   scoring/profiling,
+
+-   automatic decisions which lead to legal consequences for those impacted,
+
+-   systematic monitoring,
+
+-   processing of *special* personal data,
+
+-   the merging or combining of data which was gathered by various processes,
+
+-   data transfer to countries outside the EU/EEC
 
 # EU Privacy- and human rights-related legislation: Drafts / Proposals (as per 12/2021)
 
-# EU Privacy- and human rights-related legislation: Drafts / Proposals
+## e-Privacy Directive (2002, amended 2009)
 
-## References
+-   will be repealed by ePrivacy *Regulation* once that's been adopted
+
+-   based on Article 16 and Article 114 of the *Treaty on the Functioning of the European Union (TFEU)*[^1], which lays out rules for the internal market. [^2]
+
+-   rules on data retention, cookies, e-mail communication (among others)
+
+-   criticized as [step back compared to the GDPR](https://edpb.europa.eu/system/files/2021-03/edpb_statement_032021_eprivacy_regulation_en_0.pdf)
+
+[^1]: The second of the two main treaties of the European Union, a continuation of the original Treaty of Rome (1958). The other is the treaty of Lisbon (2009), replacing the Treaty of Maastricht (1993).
+
+[^2]: as well as Article 7 of the Charter of Fundamental Rights
+
+::: notes
+Directive vs. regulation: A regulation is immediately binding; each country has to adapt its laws to make them comply. A directive is individually implemented into national laws by each country so as to be at least minimally compliant.
+
+Criticism:
+
+-   broadly formulated exceptions to privacy of electronic communications data, including content, to "ensure network and end user device security"
+
+```{=html}
+<!-- -->
+```
+-   does not completely disallow cookie walls (exception: payment option given)
+
+-   allows for further processing "for compatible purposes"
+:::
+
+## 
+
+# References
+
+## Legal 
 
 [Veale, M., Borgesius, F.Z.: Demystifying the Draft EU Artificial Intelligence Act](https://arxiv.org/abs/2107.03721).
-
-[Selbst, A. et al.: Fairness and Abstraction in Sociotechnical Systems](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3265913).
-
-[Stark, L., Hoey, J.: The Ethics of Emotion in Artificial Intelligence Systems](https://dl.acm.org/doi/10.1145/3442188.3445939).
 
 [Cobbe, J., Singh, J.: Artificial Intelligence as a Service: Legal Responsibilities, Liabilities, and Policy Challenges](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3824736).
 
 [EDPB-EDPS Joint Opinion 5/2021 on the proposal for a Regulation of the European Parliament and of the Council laying down harmonised rules on artificial intelligence (Artificial Intelligence Act)](https://edpb.europa.eu/system/files/2021-06/edpb-edps_joint_opinion_ai_regulation_en.pdf)
 
+[EDPB-EDPS Statement 03/2021 on the ePrivacy Regulation](https://edpb.europa.eu/system/files/2021-03/edpb_statement_032021_eprivacy_regulation_en_0.pdf)
+
 [https://www.cr-online.de/blog/2021/09/19/in-der-datenschutzrechtlichen-todeszone/](https://www.cr-online.de/blog/2021/10/07/in-der-datenschutzrechtlichen-todeszone-der-data-governance-act-teil-i/).
+
+[BfDI kritisiert Position des Rats zur ePrivacy-Verordnung](https://www.bfdi.bund.de/SharedDocs/Pressemitteilungen/DE/2021/03_Ratsposition-ePrivacy-VO.html)
+
+## Fairness, ethics, etc.
+
+[Selbst, A. et al.: Fairness and Abstraction in Sociotechnical Systems](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3265913).
+
+[Stark, L., Hoey, J.: The Ethics of Emotion in Artificial Intelligence Systems](https://dl.acm.org/doi/10.1145/3442188.3445939).

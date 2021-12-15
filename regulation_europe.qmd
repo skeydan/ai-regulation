@@ -1,0 +1,91 @@
+---
+title: "Artificial Intelligence Regulation in the European Union"
+subtitle: "An overview as per December 2021"
+author: "Sigrid Keydana"
+format:
+  revealjs: 
+    theme: moon
+    slide-number: true
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+    css: styles.css
+    footer: AI Impact Working Group @RStudio, PBC
+resources:
+  - demo.pdf
+---
+
+## Agenda
+
+<br />
+
+1.  EU Privacy- and human rights-related legislation: Foundations
+
+2.  EU Privacy- and human rights-related legislation: Drafts / Proposals (as per 12/2021)
+
+3.  The Proposed Artificial Intelligence Act
+
+    3.1 Risk categories
+
+    3.2 General discussion
+
+# EU Privacy- and human rights-related legislation: Foundations
+
+## European Convention on Human Rights (1953)
+
+<br />
+
+-   Issued by the Council of Europe (founded 1949)
+
+-   Legal institution: European Court of Human Rights (ECtHR, Strasbourg).
+
+<br />
+
+::: {style="font-size: 60%"}
+**Article 8 -- Right to respect for private and family life**
+
+*Everyone has the right to respect for his private and family life, his home and his correspondence.*
+
+*There shall be no interference by a public authority with the exercise of this right except such as is in accordance with the law and is necessary in a democratic society in the interests of national security, public safety or the economic well-being of the country, for the prevention of disorder or crime, for the protection of health or morals, or for the protection of the rights and freedoms of others.*
+:::
+
+## Charter of Fundamental Rights of the European Union (2009)
+
+-   Effective as of entry into force of Treaty of Lisbon (2009)
+
+-   Enforced by: Court of Justice of the European Union (CJEU, Luxembourg)
+
+::: {style="font-size: 60%"}
+**Article 7 - Respect for private and family life**\
+Everyone has the right to respect for his or her private and family life, home and communications.
+
+**Article 8 - Protection of personal data**
+
+1.  Everyone has the right to the protection of personal data concerning him or her.
+
+2.  Such data must be processed fairly for specified purposes and on the basis of the consent of the person concerned or some other legitimate basis laid down by law. Everyone has the right of access to data which has been collected concerning him or her, and the right to have it rectified.
+
+3.  Compliance with these rules shall be subject to control by an independent authority.
+:::
+
+::: notes
+Thus we have 2 regulations, and 2 courts, both mentioning the right to private life (Article 8 / Articles 7/8, resp.)
+:::
+
+# EU Privacy- and human rights-related legislation: Drafts / Proposals (as per 12/2021)
+
+# EU Privacy- and human rights-related legislation: Drafts / Proposals
+
+## References
+
+[Veale, M., Borgesius, F.Z.: Demystifying the Draft EU Artificial Intelligence Act](https://arxiv.org/abs/2107.03721).
+
+[Selbst, A. et al.: Fairness and Abstraction in Sociotechnical Systems](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3265913).
+
+[Stark, L., Hoey, J.: The Ethics of Emotion in Artificial Intelligence Systems](https://dl.acm.org/doi/10.1145/3442188.3445939).
+
+[Cobbe, J., Singh, J.: Artificial Intelligence as a Service: Legal Responsibilities, Liabilities, and Policy Challenges](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3824736).
+
+[EDPB-EDPS Joint Opinion 5/2021 on the proposal for a Regulation of the European Parliament and of the Council laying down harmonised rules on artificial intelligence (Artificial Intelligence Act)](https://edpb.europa.eu/system/files/2021-06/edpb-edps_joint_opinion_ai_regulation_en.pdf)
+
+[https://www.cr-online.de/blog/2021/09/19/in-der-datenschutzrechtlichen-todeszone/](https://www.cr-online.de/blog/2021/10/07/in-der-datenschutzrechtlichen-todeszone-der-data-governance-act-teil-i/).

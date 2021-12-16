@@ -9,10 +9,7 @@ format:
     chalkboard: 
       buttons: false
     preview-links: auto
-    css: styles.css
     footer: AI Impact Working Group @RStudio, PBC
-resources:
-  - demo.pdf
 ---
 
 ## Agenda
@@ -24,10 +21,6 @@ resources:
 2.  EU Privacy- and human rights-related legislation: Drafts / Proposals (as per 12/2021)
 
 3.  The Proposed Artificial Intelligence Act
-
-    3.1 Risk categories
-
-    3.2 General discussion
 
 # EU Privacy- and human rights-related legislation: Foundations and present
 
@@ -184,7 +177,9 @@ The specific objectives are:
 
 [^5]: https://www.europarl.europa.eu/RegData/etudes/BRIE/2021/694212/EPRS_BRI(2021)694212_EN.pdf
 
-## Approach {style="padding-bottom: 10%;"}
+## Approach
+
+<br />
 
 Risk-based:
 
@@ -194,7 +189,7 @@ Risk-based:
 
 -   Limited risk: transparency requirements
 
--   Low risk: tbd
+-   Minimal risk: "encourage" and "facilitate" voluntary codes of conduct
 
 ## "Ethics washing made in Europe" [^6]
 
@@ -236,7 +231,9 @@ The placing on the market, putting into service or use of an AI system that expl
 "\[a\] doll with integrated voice assistant \[which\] encourages a minor to engage in progressively dangerous behavior or challenges in the guise of a fun or cool game"
 :::
 
-## Unacceptable risk (1, prohibited): Problems
+## Unacceptable risk (1, prohibited): Problems [^7]
+
+[^7]: Essentially following [Veale & Borgesius, Demystifying the Draft EU Artificial Intelligence Act](https://arxiv.org/abs/2107.03721).
 
 <br >
 
@@ -264,7 +261,9 @@ The sale or use of AI systems [used by or on behalf of public authorities]{style
 
 <br />
 
-**Problems:**
+**Problems:** [^8]
+
+[^8]: Essentially following [Veale & Borgesius, Demystifying the Draft EU Artificial Intelligence Act](https://arxiv.org/abs/2107.03721).
 
 -   What is an [unrelated context]{style="color: red;"} is up to definition
 
@@ -274,12 +273,14 @@ The sale or use of AI systems [used by or on behalf of public authorities]{style
 
 Some [uses]{style="color: red;"} of [real-time]{style="color: red;"} biometric systems in publicly accessible spaces [by law enforcement]{style="color: red;"}
 
-<br />
+**Problems**: [^9]
+
+[^9]: Essentially following [Veale & Borgesius, Demystifying the Draft EU Artificial Intelligence Act](https://arxiv.org/abs/2107.03721).
 
 ::: {style="font-size: 80%;"}
-**Problems:**
-
 -   [Usage]{style="color: red;"}, not selling
+
+<!-- -->
 
 -   Only if by [law enforcement]{style="color: red;"}
 
@@ -339,6 +340,84 @@ Providers, not users.
 
 ::: {style="font-size: 80%;"}
 Certification, *or* follow standards developed by 3 European Standardisation Organisations (ESOs).
+:::
+
+## High-risk: Problems [^10]
+
+[^10]: Essentially following [Veale & Borgesius, Demystifying the Draft EU Artificial Intelligence Act](https://arxiv.org/abs/2107.03721).
+
+-   ::: {style="font-size: 80%;"}
+    -   Can add sub-areas within these areas, if similar risk to an existing in-scope application, but cannot add new areas entirely.
+
+    -   Datasets only need to meet requirements "sufficiently" and "in view of the intended purpose of the system"
+
+    -   No explicit discussion of leakage of training data or other personal data from models
+
+    -   Unclear if essential stakeholders will be involved in the standardisation process
+
+    -   Certification bodies are private bodies!
+
+    -   Restrictions are on providers, however the provider may not know how system is used.
+    :::
+
+## Limited risk: To health, safety and fundamental rights
+
+<br />
+
+For "limited-risk" applications, either provider or user have to fulfill *transparency* requirements.
+
+Three categories are named:
+
+1.  *Bot* disclosure. Responsible: provider.
+2.  *Emotion recognition* and *biometric categorisation* disclosure. Responsible: provider.
+3.  *Synthetic content* ("Deep Fake") disclosure. Responsible: user.
+
+## Limited risk: Problems [^11]
+
+[^11]: See [Stark & Hoey, The Ethics of Emotion in Artificial Intelligence Systems](https://dl.acm.org/doi/10.1145/3442188.3445939).
+
+-   Provider vs. user boundary not that sharp; each alone may lack information
+-   Emotion recognition is anything but limited-risk.
+    -   [Scientific models of emotion are under-complex, and data reflect this]{style="font-size: 80%;"}
+
+    -   [Emotions, and their expression, are inseparable from social, cultural, situational context]{style="font-size: 80%;"}
+
+    -   [Emotions are intimately related to human dignity]{style="font-size: 80%;"}
+
+    -   [Emotions are often subject to moral judgement]{style="font-size: 80%;"}
+
+    -   [In consequence, social credit effects arise]{style="font-size: 80%;"}
+
+## Problems: General
+
+-   Risk-based laudable insofar it takes context into account; however in practice, models/applications are ported to different contexts. This invalidates the original assessment.
+
+-   Does not reflect important ways AI is being used, for example: No covering of AIaaS (https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3824736)
+
+::: notes
+**AIaaS**
+
+-   Providers claim not to be controllers, but they are as soon as they do "supplementary processing" (e.g., use customer data to refine models) they are; namely
+
+    -   joint controllers for data input and analysis stages
+
+    -   single controller for supplementary processing
+
+    -    Worse, all that is really third-party data - would need to obtain specific, informed consent!
+
+    -    But the provider can't, and the customer does not know about the specifics of supplementary processing, and has to obtain a generic opt-in in general
+
+    -   Thus, providers are likely in strong violation of GDPR
+
+-   The dominant-subordinate understanding of controller-processor relationships, still depicted in GDPR, does not reflect the actual power dynamics in many contemporary environments.
+
+-   AIaaS leads to an amplification / spreading of ethical problems with AI:
+
+    -   Issues are likely to propagate across many different applications operating in many different areas
+
+    -   Many issues will manifest only in particular contexts, the scope for which providers are unlikely to have considered. This is known as the "portability trap".
+
+-   Overall, a vicious circle of monopolization results.
 :::
 
 # References

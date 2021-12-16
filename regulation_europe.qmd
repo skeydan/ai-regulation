@@ -119,25 +119,158 @@ Criticism:
 
 -   broadly formulated exceptions to privacy of electronic communications data, including content, to "ensure network and end user device security"
 
-```{=html}
 <!-- -->
-```
+
 -   does not completely disallow cookie walls (exception: payment option given)
 
 -   allows for further processing "for compatible purposes"
 :::
 
-## 
+## Data Governance Act (11/2020)
+
+-   covers: re-use of public data; "data sharing services/intermediaries"; "data altruism"
+
+-   where data includes *personal* data
+
+-   *"*without prejudice to Regulation (EU) 2016/679 and Directive 2002/58/EC"
+
+::: {style="font-size: 60%;"}
+"*Indeed, considering that data protection is a fundamental right guaranteed by Article 8 of the Charter, and taking into account that one of the main purposes of the GDPR is to provide data subjects with control over personal data relating to them, the EDPB reiterates that personal data cannot be considered as a "tradeable commodity". An important consequence of this is that, even if the data subject can agree to the processing of his or her personal data, he or she cannot waive his or her fundamental rights."* [^3]
+:::
+
+[^3]: [*EDPB-EDPS Statement 05/2021 on the Data Governance Act in light of the legislative developments*](https://edpb.europa.eu/system/files/2021-05/edpb_statementondga_19052021_en_0.pdf)
+
+## Digital Services Act (12/2020)
+
+-   defines a *layered* set of responsibilities for intermediaries (network infrastructure), hosting services, online platforms, and "very large online platforms"
+
+-   Concerns:[^4]
+
+    -   allows for use of AI systems categorizing individuals from biometrics according to ethnicity, gender, as well as political or sexual orientation
+
+    -   allows emotion recognition
+
+    -   allows targeted advertising
+
+[^4]: https://edpb.europa.eu/system/files/2021-11/edpb_statement_on_the_digital_services_package_and_data_strategy_en.pdf
+
+## Digital Markets Act (12/2020)
+
+-   sets up ex-ante rules for so-called *gatekeepers*, including
+
+    -   to refrain from combining personal data from different sources
+
+    -   to submit (on an annual basis) an independently audited description of any techniques deployed for profiling consumers
+
+# The Proposed Artificial Intelligence Act
+
+## Objectives
+
+<br />
+
+::: {style="font-size: 80%;"}
+The general objective is to '*ensure the proper functioning of the internal market by creating the conditions for the development and use of trustworthy artificial intelligence in the Union*' (impact assessment, p. 32).
+
+The specific objectives are:
+
+\(i\) to ensure that AI systems placed on the market and used are safe and respect *existing rules* on fundamental rights and Union values,
+
+\(ii\) to ensure legal certainty to *facilitate investment and innovation* in AI,
+
+\(iii\) to enhance governance and effective enforcement of *existing rules* on fundamental rights and safety requirements applicable to AI systems, and
+
+\(iv\) to facilitate the *development of a single market* for lawful, safe and trustworthy AI applications and *prevent market fragmentation*. [^5]
+:::
+
+[^5]: https://www.europarl.europa.eu/RegData/etudes/BRIE/2021/694212/EPRS_BRI(2021)694212_EN.pdf
+
+## Approach {style="padding-bottom: 10%;"}
+
+Risk-based:
+
+-   Unacceptable risk: prohibited (absolutely or with exceptions)
+
+-   High risk: catalog of requirements
+
+-   Limited risk: transparency requirements
+
+-   Low risk: tbd
+
+## "Ethics washing made in Europe" [^6]
+
+[^6]: https://www.tagesspiegel.de/politik/eu-guidelines-ethics-washing-made-in-europe/24195496.html
+
+![](ethics_washing_2.png){.absolute top="228" left="50"}
+
+![](ethics_washing_1.png){.absolute top="70" right="0"}
+
+![](ethics_washing_3.png){.absolute bottom="0" right="200"}
+
+## Unacceptable risk (1, prohibited): Manipulation (1)
+
+<br />
+
+::: {style="font-size: 100%;"}
+The placing on the market, putting into service or use of an AI system that deploys subliminal techniques beyond a person's consciousness [in order to]{style="color: red;"} materially distort a person's behaviour in a manner that causes or is likely to cause that person or another person physical or psychological [harm]{style="color:red;"}
+:::
+
+<br />
+
+::: {style="font-size: 80%;"}
+*"\[a\]n inaudible sound \[played\] in truck drivers' cabins to push them to drive longer than healthy and safe \[where\] AI is used to find the frequency maximising this effect on drivers"*
+:::
+
+<br />
+
+## Unacceptable risk (1, prohibited): Manipulation (2)
+
+<br />
+
+::: {style="font-size: 100%;"}
+The placing on the market, putting into service or use of an AI system that exploits any of the vulnerabilities of a specific group of persons due to their age, physical or mental disability, [in order to]{style="color:red"} materially distort the behaviour of a person pertaining to that group in a manner that causes or is likely to cause that person or another person physical or psychological [harm]{style="color:red"}
+:::
+
+<br />
+
+::: {style="font-size: 80%;"}
+"\[a\] doll with integrated voice assistant \[which\] encourages a minor to engage in progressively dangerous behavior or challenges in the guise of a fun or cool game"
+:::
+
+## Unacceptable risk (1, prohibited): Problems
+
+<br >
+
+-   [Harm]{style="color:red"}: does not consider cumulative harm
+
+-   [Intent]{style="color:red"}:
+
+    -   hard to prove
+
+    -    does not consider *dual use*
+
+    -   does not consider the usual newspeak / marketing strategies
+
+    -   leaves out dynamics in the user base
+
+-   Does not add much to existing EU law (Unfair Commercial Practices Directive)
+
+## Unacceptable risk (2, prohibited): Social Scoring 
 
 # References
 
-## Legal 
+## Legal (AI Act)
+
+[Proposal for a Regulation Of The European Parliament And Of The Council Laying Down Harmonised Rules On Artificial Intelligence (Artificial Intelligence Act) And Amending Certain Union Legislative Acts](https://eur-lex.europa.eu/legal-content/EN-FR-IT/TXT/?from=EN&uri=CELEX%3A52021PC0206).
 
 [Veale, M., Borgesius, F.Z.: Demystifying the Draft EU Artificial Intelligence Act](https://arxiv.org/abs/2107.03721).
 
-[Cobbe, J., Singh, J.: Artificial Intelligence as a Service: Legal Responsibilities, Liabilities, and Policy Challenges](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3824736).
-
 [EDPB-EDPS Joint Opinion 5/2021 on the proposal for a Regulation of the European Parliament and of the Council laying down harmonised rules on artificial intelligence (Artificial Intelligence Act)](https://edpb.europa.eu/system/files/2021-06/edpb-edps_joint_opinion_ai_regulation_en.pdf)
+
+[Initial Appraisal of a European Commission Impact Assessment, Artificial Intelligence Act](https://www.europarl.europa.eu/RegData/etudes/BRIE/2021/694212/EPRS_BRI(2021)694212_EN.pdf)
+
+[Ethics washing made in Europe](https://www.tagesspiegel.de/politik/eu-guidelines-ethics-washing-made-in-europe/24195496.html)
+
+## Legal (other)
 
 [EDPB-EDPS Statement 03/2021 on the ePrivacy Regulation](https://edpb.europa.eu/system/files/2021-03/edpb_statement_032021_eprivacy_regulation_en_0.pdf)
 
@@ -145,8 +278,18 @@ Criticism:
 
 [BfDI kritisiert Position des Rats zur ePrivacy-Verordnung](https://www.bfdi.bund.de/SharedDocs/Pressemitteilungen/DE/2021/03_Ratsposition-ePrivacy-VO.html)
 
+[EDPB-EDPS Statement 05/2021 on the Data Governance Act in light of the legislative developments](https://edpb.europa.eu/system/files/2021-05/edpb_statementondga_19052021_en_0.pdf)
+
+[EDPB-EDPS Statement on the Digital Services Package and Data Strategy](https://edpb.europa.eu/system/files/2021-11/edpb_statement_on_the_digital_services_package_and_data_strategy_en.pdf)
+
+[EDPB-EDPS Opinion 2/2021 on the Proposal for a Digital Markets Act](https://edps.europa.eu/system/files/2021-02/21-02-10-opinion_on_digital_markets_act_en.pdf)
+
+[Algorithm Watch Joint Statement on the Ad Hoc Committee on Artificial Intelligence (CAHAI) in the Council of Europe](https://algorithmwatch.org/en/joint-statement-cahai/)
+
 ## Fairness, ethics, etc.
 
 [Selbst, A. et al.: Fairness and Abstraction in Sociotechnical Systems](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3265913).
 
 [Stark, L., Hoey, J.: The Ethics of Emotion in Artificial Intelligence Systems](https://dl.acm.org/doi/10.1145/3442188.3445939).
+
+[Cobbe, J., Singh, J.: Artificial Intelligence as a Service: Legal Responsibilities, Liabilities, and Policy Challenges](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3824736).

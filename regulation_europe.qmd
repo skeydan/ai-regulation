@@ -246,7 +246,7 @@ The placing on the market, putting into service or use of an AI system that expl
 
     -   hard to prove
 
-    -    does not consider *dual use*
+    -   does not consider *dual use*
 
     -   does not consider the usual newspeak / marketing strategies
 
@@ -254,7 +254,92 @@ The placing on the market, putting into service or use of an AI system that expl
 
 -   Does not add much to existing EU law (Unfair Commercial Practices Directive)
 
-## Unacceptable risk (2, prohibited): Social Scoring 
+## Unacceptable risk (2, prohibited): Social scoring
+
+<br />
+
+::: {style="font-size: 80%;"}
+The sale or use of AI systems [used by or on behalf of public authorities]{style="color: red;"}, to generate trustworthiness scores and which lead to either unjustified or disproportionate treatment of individuals or groups, or detrimental treatment which, while justifiable and proportionate, occurs in an [unrelated context]{style="color: red;"} from the input data
+:::
+
+<br />
+
+**Problems:**
+
+-   What is an [unrelated context]{style="color: red;"} is up to definition
+
+-   [Public authorities]{style="color: red;"}: What about, e.g., privately controlled delivery, telecommunications or transport?
+
+## Unacceptable risk (3, partially prohibited): Biometric systems
+
+Some [uses]{style="color: red;"} of [real-time]{style="color: red;"} biometric systems in publicly accessible spaces [by law enforcement]{style="color: red;"}
+
+<br />
+
+::: {style="font-size: 80%;"}
+**Problems:**
+
+-   [Usage]{style="color: red;"}, not selling
+
+-   Only if by [law enforcement]{style="color: red;"}
+
+-   [Real-time]{style="color: red;"} only
+
+-   [Exceptions]{style="color: red;"}: search for victims/missing children; threat to life or physical safety / terrorist attack; detection, localisation, identification or prosecution of a perpetrator or suspect of a crime with maximum sentence of at least 3 years
+:::
+
+## High risk: To health, safety and fundamental rights
+
+<br />
+
+... in *number of defined applications, products and sectors*.
+
+<br />
+
+Based on and entwined with the New Legislative Framework (NLF) (the New Approach when introduced in 1985), a common EU approach to the regulation of certain products such as lifts, medical devices, personal protective equipment and toys
+
+## High risk: Applicability
+
+1.  [AI systems that are products or safety components (broadly construed) of products already covered by certain Union health and safety harmonisation legislation (such as toys, machinery, lifts, or medical devices).]{style="font-size: 70%;"}
+2.  [Standalone AI systems specified in an annex for use in eight fixed areas:]{style="font-size: 70%;"}
+
+::: {style="font-size: 80%;"}
+    1.  biometric identification and categorisation (both remote and offline);
+
+    2.  management and operation of critical infrastructure;
+
+    3.  educational and vocational training;
+
+    4.  employment, worker management and access to self-employment;
+
+    5.  access to and enjoyment of essential services and benefits;
+
+    6.  law enforcement;
+
+    7.  migration, asylum and border management;
+:::
+
+## High risk: Requirements
+
+<br />
+
+**What:**
+
+::: {style="font-size: 80%;"}
+Risk management system; data quality criteria; accuracy; robustness and cybersecurity; technical documentation; logging; human oversight.
+:::
+
+**Who:**
+
+::: {style="font-size: 80%;"}
+Providers, not users.
+:::
+
+**How:**
+
+::: {style="font-size: 80%;"}
+Certification, *or* follow standards developed by 3 European Standardisation Organisations (ESOs).
+:::
 
 # References
 

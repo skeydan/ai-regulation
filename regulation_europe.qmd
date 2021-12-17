@@ -6,9 +6,8 @@ format:
   revealjs: 
     theme: moon
     slide-number: true
-    chalkboard: 
-      buttons: false
-    preview-links: auto
+    self-contained: true
+    preview-links: true
     footer: AI Impact Working Group @RStudio, PBC
 ---
 
@@ -16,19 +15,19 @@ format:
 
 <br />
 
-1.  EU Privacy- and human rights-related legislation: Foundations
+1.  Privacy- and human rights-related legislation: Foundations
 
-2.  EU Privacy- and human rights-related legislation: Drafts / Proposals (as per 12/2021)
+2.  Privacy- and human rights-related legislation: Drafts / Proposals (as per 12/2021)
 
 3.  The Proposed Artificial Intelligence Act
 
-# EU Privacy- and human rights-related legislation: Foundations and present
+# Privacy- and human rights-related legislation: Foundations and present
 
 ## European Convention on Human Rights (1953)
 
 <br />
 
--   Issued by the Council of Europe (founded 1949)
+-   Issued by the Council of Europe (founded in 1949)
 
 -   Legal institution: European Court of Human Rights (ECtHR, Strasbourg).
 
@@ -48,17 +47,17 @@ format:
 
 -   Enforced by: Court of Justice of the European Union (CJEU, Luxembourg)
 
-::: {style="font-size: 60%"}
+::: {style="font-size: 58%"}
 **Article 7 - Respect for private and family life**\
-Everyone has the right to respect for his or her private and family life, home and communications.
+*Everyone has the right to respect for his or her private and family life, home and communications.*
 
 **Article 8 - Protection of personal data**
 
-1.  Everyone has the right to the protection of personal data concerning him or her.
+1.  *Everyone has the right to the protection of personal data concerning him or her.*
 
-2.  Such data must be processed fairly for specified purposes and on the basis of the consent of the person concerned or some other legitimate basis laid down by law. Everyone has the right of access to data which has been collected concerning him or her, and the right to have it rectified.
+2.  *Such data must be processed fairly for specified purposes and on the basis of the consent of the person concerned or some other legitimate basis laid down by law. Everyone has the right of access to data which has been collected concerning him or her, and the right to have it rectified.*
 
-3.  Compliance with these rules shall be subject to control by an independent authority.
+3.  *Compliance with these rules shall be subject to control by an independent authority.*
 :::
 
 ## General Data Protection Regulation (GDPR, 2018)
@@ -75,21 +74,21 @@ Everyone has the right to respect for his or her private and family life, home a
 
 ## GDPR & AI: Privacy Impact Assessment (PIA)
 
-A *Privacy Impact Assessment* must always be conducted when the processing could result in a high risk to the rights and freedoms of natural persons. E.g.
+A *Privacy Impact Assessment* must always be conducted when the processing could result in a high risk to the rights and freedoms of natural persons. E.g.,
 
--   scoring/profiling,
+-   [scoring/profiling,]{style="font-size: 70%;"}
 
--   automatic decisions which lead to legal consequences for those impacted,
+-   [automatic decisions which lead to legal consequences for those impacted,]{style="font-size: 70%;"}
 
--   systematic monitoring,
+-   [systematic monitoring,]{style="font-size: 70%;"}
 
--   processing of *special* personal data,
+-   [processing of *special* personal data,]{style="font-size: 70%;"}
 
--   the merging or combining of data which was gathered by various processes,
+-   [the merging or combining of data which was gathered by various processes,]{style="font-size: 70%;"}
 
--   data transfer to countries outside the EU/EEC
+-   [data transfer to countries outside the EU/EEC]{style="font-size: 70%;"}
 
-# EU Privacy- and human rights-related legislation: Drafts / Proposals (as per 12/2021)
+# Privacy- and human rights-related legislation: Drafts / Proposals (as per 12/2021)
 
 ## e-Privacy Directive (2002, amended 2009)
 
@@ -101,9 +100,9 @@ A *Privacy Impact Assessment* must always be conducted when the processing could
 
 -   criticized as [step back compared to the GDPR](https://edpb.europa.eu/system/files/2021-03/edpb_statement_032021_eprivacy_regulation_en_0.pdf)
 
-[^1]: The second of the two main treaties of the European Union, a continuation of the original Treaty of Rome (1958). The other is the treaty of Lisbon (2009), replacing the Treaty of Maastricht (1993).
+[^1]: [The second of the two main treaties of the European Union, a continuation of the original Treaty of Rome (1958). The other is the treaty of Lisbon (2009), replacing the Treaty of Maastricht (1993).]{style="font-size: 50%;"}
 
-[^2]: as well as Article 7 of the Charter of Fundamental Rights
+[^2]: [as well as Article 7 of the Charter of Fundamental Rights]{style="font-size: 50%;"}
 
 ::: notes
 Directive vs. regulation: A regulation is immediately binding; each country has to adapt its laws to make them comply. A directive is individually implemented into national laws by each country so as to be at least minimally compliant.
@@ -145,9 +144,11 @@ Criticism:
 
     -   allows targeted advertising
 
-[^4]: https://edpb.europa.eu/system/files/2021-11/edpb_statement_on_the_digital_services_package_and_data_strategy_en.pdf
+[^4]: [https://edpb.europa.eu/system/files/2021-11/edpb_statement_on_the_digital_services_package_and_data_strategy_en.pdf]{style="font-size: 50%;"}
 
 ## Digital Markets Act (12/2020)
+
+<br />
 
 -   sets up ex-ante rules for so-called *gatekeepers*, including
 
@@ -175,7 +176,7 @@ The specific objectives are:
 \(iv\) to facilitate the *development of a single market* for lawful, safe and trustworthy AI applications and *prevent market fragmentation*. [^5]
 :::
 
-[^5]: https://www.europarl.europa.eu/RegData/etudes/BRIE/2021/694212/EPRS_BRI(2021)694212_EN.pdf
+[^5]: [https://www.europarl.europa.eu/RegData/etudes/BRIE/2021/694212/EPRS_BRI(2021)694212_EN.pdf]{style="font-size: 50%;"}
 
 ## Approach
 
@@ -193,11 +194,13 @@ Risk-based:
 
 ## "Ethics washing made in Europe" [^6]
 
-[^6]: https://www.tagesspiegel.de/politik/eu-guidelines-ethics-washing-made-in-europe/24195496.html
+[^6]: [https://www.tagesspiegel.de/politik/eu-guidelines-ethics-washing-made-in-europe/24195496.html]{style="font-size: 50%;"}
 
 ![](ethics_washing_2.png){.absolute top="228" left="50"}
 
 ![](ethics_washing_1.png){.absolute top="70" right="0"}
+
+![](ethics_washing_1.png){.absolute top="80" right="0"}
 
 ![](ethics_washing_3.png){.absolute bottom="0" right="200"}
 
@@ -205,7 +208,7 @@ Risk-based:
 
 <br />
 
-::: {style="font-size: 100%;"}
+::: {style="font-size: 80%;"}
 The placing on the market, putting into service or use of an AI system that deploys subliminal techniques beyond a person's consciousness [in order to]{style="color: red;"} materially distort a person's behaviour in a manner that causes or is likely to cause that person or another person physical or psychological [harm]{style="color:red;"}
 :::
 
@@ -221,19 +224,19 @@ The placing on the market, putting into service or use of an AI system that depl
 
 <br />
 
-::: {style="font-size: 100%;"}
+::: {style="font-size: 80%;"}
 The placing on the market, putting into service or use of an AI system that exploits any of the vulnerabilities of a specific group of persons due to their age, physical or mental disability, [in order to]{style="color:red"} materially distort the behaviour of a person pertaining to that group in a manner that causes or is likely to cause that person or another person physical or psychological [harm]{style="color:red"}
 :::
 
 <br />
 
-::: {style="font-size: 80%;"}
-"\[a\] doll with integrated voice assistant \[which\] encourages a minor to engage in progressively dangerous behavior or challenges in the guise of a fun or cool game"
+::: {style="font-size: 70%;"}
+*"\[a\] doll with integrated voice assistant \[which\] encourages a minor to engage in progressively dangerous behavior or challenges in the guise of a fun or cool game"*
 :::
 
 ## Unacceptable risk (1, prohibited): Problems [^7]
 
-[^7]: Essentially following [Veale & Borgesius, Demystifying the Draft EU Artificial Intelligence Act](https://arxiv.org/abs/2107.03721).
+[^7]: [Essentially following [Veale & Borgesius, Demystifying the Draft EU Artificial Intelligence Act](https://arxiv.org/abs/2107.03721).]{style="font-size: 50%;"}
 
 <br >
 
@@ -241,13 +244,13 @@ The placing on the market, putting into service or use of an AI system that expl
 
 -   [Intent]{style="color:red"}:
 
-    -   hard to prove
+    -   [hard to prove]{style="font-size: 70%;"}
 
-    -   does not consider *dual use*
+    -   [does not consider *dual use*]{style="font-size: 70%;"}
 
-    -   does not consider the usual newspeak / marketing strategies
+    -   [does not consider the usual newspeak / marketing strategies]{style="font-size: 70%;"}
 
-    -   leaves out dynamics in the user base
+    -   [leaves out dynamics in the user base]{style="font-size: 70%;"}
 
 -   Does not add much to existing EU law (Unfair Commercial Practices Directive)
 
@@ -259,11 +262,9 @@ The placing on the market, putting into service or use of an AI system that expl
 The sale or use of AI systems [used by or on behalf of public authorities]{style="color: red;"}, to generate trustworthiness scores and which lead to either unjustified or disproportionate treatment of individuals or groups, or detrimental treatment which, while justifiable and proportionate, occurs in an [unrelated context]{style="color: red;"} from the input data
 :::
 
-<br />
-
 **Problems:** [^8]
 
-[^8]: Essentially following [Veale & Borgesius, Demystifying the Draft EU Artificial Intelligence Act](https://arxiv.org/abs/2107.03721).
+[^8]: [Essentially following [Veale & Borgesius, Demystifying the Draft EU Artificial Intelligence Act](https://arxiv.org/abs/2107.03721).]{style="font-size: 50%;"}
 
 -   What is an [unrelated context]{style="color: red;"} is up to definition
 
@@ -275,9 +276,9 @@ Some [uses]{style="color: red;"} of [real-time]{style="color: red;"} biometric s
 
 **Problems**: [^9]
 
-[^9]: Essentially following [Veale & Borgesius, Demystifying the Draft EU Artificial Intelligence Act](https://arxiv.org/abs/2107.03721).
+[^9]: [Essentially following [Veale & Borgesius, Demystifying the Draft EU Artificial Intelligence Act](https://arxiv.org/abs/2107.03721).]{style="font-size: 50%;"}
 
-::: {style="font-size: 80%;"}
+::: {style="font-size: 70%;"}
 -   [Usage]{style="color: red;"}, not selling
 
 <!-- -->
@@ -293,7 +294,7 @@ Some [uses]{style="color: red;"} of [real-time]{style="color: red;"} biometric s
 
 <br />
 
-... in *number of defined applications, products and sectors*.
+... in a *number of defined applications, products and sectors*.
 
 <br />
 
@@ -318,6 +319,8 @@ Based on and entwined with the New Legislative Framework (NLF) (the New Approach
     6.  law enforcement;
 
     7.  migration, asylum and border management;
+
+    8.  administration of justice and democracy.
 :::
 
 ## High risk: Requirements
@@ -344,55 +347,61 @@ Certification, *or* follow standards developed by 3 European Standardisation Org
 
 ## High-risk: Problems [^10]
 
-[^10]: Essentially following [Veale & Borgesius, Demystifying the Draft EU Artificial Intelligence Act](https://arxiv.org/abs/2107.03721).
+[^10]: [Essentially following [Veale & Borgesius, Demystifying the Draft EU Artificial Intelligence Act](https://arxiv.org/abs/2107.03721).]{style="font-size: 50%;"}
 
 -   ::: {style="font-size: 80%;"}
-    -   Can add sub-areas within these areas, if similar risk to an existing in-scope application, but cannot add new areas entirely.
+    -   Can add sub-areas within these areas, if similar risk to an existing in-scope application, but [cannot add new areas]{style="color:red;"}entirely.
 
     -   Datasets only need to meet requirements "sufficiently" and "in view of the intended purpose of the system"
 
     -   No explicit discussion of leakage of training data or other personal data from models
 
-    -   Unclear if essential stakeholders will be involved in the standardisation process
+    -   Unclear if [essential stakeholders]{style="color:red;"} will be involved in the standardisation process
 
-    -   Certification bodies are private bodies!
+    -   Certification bodies are [private]{style="color:red;"} bodies!
 
-    -   Restrictions are on providers, however the provider may not know how system is used.
+    -   Restrictions are on providers, however [the provider may not know how system is used]{style="color:red;"}.
     :::
 
 ## Limited risk: To health, safety and fundamental rights
-
-<br />
 
 For "limited-risk" applications, either provider or user have to fulfill *transparency* requirements.
 
 Three categories are named:
 
-1.  *Bot* disclosure. Responsible: provider.
-2.  *Emotion recognition* and *biometric categorisation* disclosure. Responsible: provider.
-3.  *Synthetic content* ("Deep Fake") disclosure. Responsible: user.
+1.  *Bot* disclosure. Responsible: Provider.
+2.  *Emotion recognition* and *biometric categorisation* disclosure. Responsible: Provider.
+3.  *Synthetic content* ("Deep Fake") disclosure. Responsible: User.
 
 ## Limited risk: Problems [^11]
 
-[^11]: See [Stark & Hoey, The Ethics of Emotion in Artificial Intelligence Systems](https://dl.acm.org/doi/10.1145/3442188.3445939).
+[^11]: [See [Stark & Hoey, The Ethics of Emotion in Artificial Intelligence Systems](https://dl.acm.org/doi/10.1145/3442188.3445939).]{style="font-size: 50%;"}
 
 -   Provider vs. user boundary not that sharp; each alone may lack information
 -   Emotion recognition is anything but limited-risk.
-    -   [Scientific models of emotion are under-complex, and data reflect this]{style="font-size: 80%;"}
+    -   [Scientific models of emotion are under-complex, and data reflect this]{style="font-size: 70%; color: red;"}
 
-    -   [Emotions, and their expression, are inseparable from social, cultural, situational context]{style="font-size: 80%;"}
+    -   [Emotions, and their expression, are inseparable from social, cultural, situational context]{style="font-size: 70%; color: red;"}
 
-    -   [Emotions are intimately related to human dignity]{style="font-size: 80%;"}
+    -   [Emotions are intimately related to human dignity]{style="font-size: 70%; color: red;"}
 
-    -   [Emotions are often subject to moral judgement]{style="font-size: 80%;"}
+    -   [Emotions are often subject to moral judgement]{style="font-size: 70%; color: red;"}
 
-    -   [In consequence, social credit effects arise]{style="font-size: 80%;"}
+    -   [In consequence, social credit effects arise]{style="font-size: 70%; color: red;"}
 
-## Problems: General
+## General Problems: Legal / technical
 
--   Risk-based laudable insofar it takes context into account; however in practice, models/applications are ported to different contexts. This invalidates the original assessment.
+-   Risk-based approach is based on context; but in practice, models/applications are ported to [different contexts.]{style="color: red;"}
 
--   Does not reflect important ways AI is being used, for example: No covering of AIaaS (https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3824736)
+-   [Does]{style="Concrete lists of applications, combined with selective group of people/lobbyists involved, means that: - solution is solution as defined by dominant party, not people impacted by stuff or representing minorities"} [not reflect important ways AI is being used]{style="color: red;"}, for example: No covering of Artificial Intelligence as a Service (AIaaS)[^12].
+
+-   Does not apply to systems already [in use]{style="color: red;"}.
+
+-   [Excludes]{style="color: red;"} international law enforcement cooperation.
+
+-   [Preemptive effect]{style="color: red;"}: Aims to '"prevent unilateral Member States actions that risk to fragment the market and to impose even higher regulatory burdens \[...\]'".
+
+[^12]: [See: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3824736).]{style="font-size: 50;"}
 
 ::: notes
 **AIaaS**
@@ -403,9 +412,9 @@ Three categories are named:
 
     -   single controller for supplementary processing
 
-    -    Worse, all that is really third-party data - would need to obtain specific, informed consent!
+    -   Worse, all that is really third-party data - would need to obtain specific, informed consent!
 
-    -    But the provider can't, and the customer does not know about the specifics of supplementary processing, and has to obtain a generic opt-in in general
+    -   But the provider can't, and the customer does not know about the specifics of supplementary processing, and has to obtain a generic opt-in in general
 
     -   Thus, providers are likely in strong violation of GDPR
 
@@ -420,10 +429,21 @@ Three categories are named:
 -   Overall, a vicious circle of monopolization results.
 :::
 
+## General Problems: Society & Human Rights
+
+-   Concrete lists of applications, combined with the massive lobbying that has been going on, means that this is the [rule of a dominant party]{style="color: red;"}, not people impacted/affected, or minorities.
+
+-   Leaves out risks for [groups of individuals]{style="color: red;"} or the [society]{style="color: red;"} as a whole.
+
+-   No reference to the [individual affected]{style="color: red;"} / no regard to [human rights]{style="color: red;"}.
+
+-   Not enough focus on [data protection]{style="color: red;"}.
+
 # References
 
 ## Legal (AI Act)
 
+::: {style="font-size: 60%;"}
 [Proposal for a Regulation Of The European Parliament And Of The Council Laying Down Harmonised Rules On Artificial Intelligence (Artificial Intelligence Act) And Amending Certain Union Legislative Acts](https://eur-lex.europa.eu/legal-content/EN-FR-IT/TXT/?from=EN&uri=CELEX%3A52021PC0206).
 
 [Veale, M., Borgesius, F.Z.: Demystifying the Draft EU Artificial Intelligence Act](https://arxiv.org/abs/2107.03721).
@@ -433,9 +453,11 @@ Three categories are named:
 [Initial Appraisal of a European Commission Impact Assessment, Artificial Intelligence Act](https://www.europarl.europa.eu/RegData/etudes/BRIE/2021/694212/EPRS_BRI(2021)694212_EN.pdf)
 
 [Ethics washing made in Europe](https://www.tagesspiegel.de/politik/eu-guidelines-ethics-washing-made-in-europe/24195496.html)
+:::
 
-## Legal (other)
+## Legal (Other)
 
+::: {style="font-size: 60%;"}
 [EDPB-EDPS Statement 03/2021 on the ePrivacy Regulation](https://edpb.europa.eu/system/files/2021-03/edpb_statement_032021_eprivacy_regulation_en_0.pdf)
 
 [https://www.cr-online.de/blog/2021/09/19/in-der-datenschutzrechtlichen-todeszone/](https://www.cr-online.de/blog/2021/10/07/in-der-datenschutzrechtlichen-todeszone-der-data-governance-act-teil-i/).
@@ -449,11 +471,16 @@ Three categories are named:
 [EDPB-EDPS Opinion 2/2021 on the Proposal for a Digital Markets Act](https://edps.europa.eu/system/files/2021-02/21-02-10-opinion_on_digital_markets_act_en.pdf)
 
 [Algorithm Watch Joint Statement on the Ad Hoc Committee on Artificial Intelligence (CAHAI) in the Council of Europe](https://algorithmwatch.org/en/joint-statement-cahai/)
+:::
 
 ## Fairness, ethics, etc.
 
+::: {style="font-size: 60%;"}
 [Selbst, A. et al.: Fairness and Abstraction in Sociotechnical Systems](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3265913).
 
 [Stark, L., Hoey, J.: The Ethics of Emotion in Artificial Intelligence Systems](https://dl.acm.org/doi/10.1145/3442188.3445939).
 
+[EDRI, Beyond Debiasing](https://edri.org/wp-content/uploads/2021/09/EDRi_Beyond-Debiasing-Report_Online.pdf.)
+
 [Cobbe, J., Singh, J.: Artificial Intelligence as a Service: Legal Responsibilities, Liabilities, and Policy Challenges](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3824736).
+:::

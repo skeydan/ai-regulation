@@ -92,30 +92,30 @@ A *Privacy Impact Assessment* must always be conducted when the processing could
 
 ## e-Privacy Directive (2002, amended 2009)
 
--   will be repealed by ePrivacy *Regulation* once that's been adopted
+-   [rules on data retention, cookies, e-mail communication (among others)]{style="font-size: 70%;"}
 
--   based on Article 16 and Article 114 of the *Treaty on the Functioning of the European Union (TFEU)*[^1], which lays out rules for the internal market. [^2]
+-   [will be repealed by ePrivacy *Regulation* once that's been adopted]{style="font-size: 70%;"}
 
--   rules on data retention, cookies, e-mail communication (among others)
+-   [based on Article 16 and Article 114 of the *Treaty on the Functioning of the European Union (TFEU)*[^1], which lays out rules for the internal market. [^2]]{style="font-size: 70%;"}
 
--   criticized as [step back compared to the GDPR](https://edpb.europa.eu/system/files/2021-03/edpb_statement_032021_eprivacy_regulation_en_0.pdf)
+[^1]: The second of the two main treaties of the European Union, a continuation of the original Treaty of Rome (1958). The other is the treaty of Lisbon (2009), replacing the Treaty of Maastricht (1993).
 
-[^1]: [The second of the two main treaties of the European Union, a continuation of the original Treaty of Rome (1958). The other is the treaty of Lisbon (2009), replacing the Treaty of Maastricht (1993).]{style="font-size: 50%;"}
+[^2]: as well as Article 7 of the Charter of Fundamental Rights
 
-[^2]: [as well as Article 7 of the Charter of Fundamental Rights]{style="font-size: 50%;"}
+[Criticisms:]{style="font-size: 70%;"}
+
+-   [broadly formulated exceptions to privacy of electronic communications data, including content, to "ensure network and end user device security"]{style="font-size: 70%;"}
+
+-   [allows for further processing "for compatible purposes"]{style="font-size: 70%;"}
+
+-   [overall, criticized as [step back compared to the GDPR](https://edpb.europa.eu/system/files/2021-03/edpb_statement_032021_eprivacy_regulation_en_0.pdf)]{style="font-size: 70%;"}
 
 ::: notes
-Directive vs. regulation: A regulation is immediately binding; each country has to adapt its laws to make them comply. A directive is individually implemented into national laws by each country so as to be at least minimally compliant.
+Directive vs. regulation:
 
-Criticism:
+A regulation is immediately binding; each country has to adapt its laws to make them comply.
 
--   broadly formulated exceptions to privacy of electronic communications data, including content, to "ensure network and end user device security"
-
-<!-- -->
-
--   does not completely disallow cookie walls (exception: payment option given)
-
--   allows for further processing "for compatible purposes"
+A directive is individually implemented into national laws by each country so as to be at least minimally compliant.
 :::
 
 ## Data Governance Act (11/2020)
@@ -130,7 +130,7 @@ Criticism:
 "*Indeed, considering that data protection is a fundamental right guaranteed by Article 8 of the Charter, and taking into account that one of the main purposes of the GDPR is to provide data subjects with control over personal data relating to them, the EDPB reiterates that personal data cannot be considered as a "tradeable commodity". An important consequence of this is that, even if the data subject can agree to the processing of his or her personal data, he or she cannot waive his or her fundamental rights."* [^3]
 :::
 
-[^3]: [*EDPB-EDPS Statement 05/2021 on the Data Governance Act in light of the legislative developments*](https://edpb.europa.eu/system/files/2021-05/edpb_statementondga_19052021_en_0.pdf)
+[^3]: EDPB-EDPS Statement 05/2021 on the Data Governance Act in light of the legislative developments
 
 ## Digital Services Act (12/2020)
 
@@ -350,7 +350,7 @@ Certification, *or* follow standards developed by 3 European Standardisation Org
 [^10]: [Essentially following [Veale & Borgesius, Demystifying the Draft EU Artificial Intelligence Act](https://arxiv.org/abs/2107.03721).]{style="font-size: 50%;"}
 
 -   ::: {style="font-size: 80%;"}
-    -   Can add sub-areas within these areas, if similar risk to an existing in-scope application, but [cannot add new areas]{style="color:red;"}entirely.
+    -   Can add sub-areas within these areas, if similar risk to an existing in-scope application, but [cannot add new areas]{style="color:red;"} entirely.
 
     -   Datasets only need to meet requirements "sufficiently" and "in view of the intended purpose of the system"
 
@@ -431,7 +431,7 @@ Three categories are named:
 
 ## General Problems: Society & Human Rights
 
--   Concrete lists of applications, combined with the massive lobbying that has been going on, means that this is the [rule of a dominant party]{style="color: red;"}, not people impacted/affected, or minorities.
+-   Concrete lists of applications, combined with the massive lobbying that has been going on, means that this is the [rule of a dominant party]{style="color: red;"}, not people impacted / affected, or minorities.
 
 -   Leaves out risks for [groups of individuals]{style="color: red;"} or the [society]{style="color: red;"} as a whole.
 
